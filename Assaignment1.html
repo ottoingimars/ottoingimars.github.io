@@ -15,7 +15,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color:#0d0d0d;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -23,13 +23,7 @@ header {
 }
 
 /* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
+
 
 /* Style the list inside the menu */
 nav ul {
@@ -38,11 +32,12 @@ nav ul {
 }
 
 article {
-  float: left;
+  float: middle;
   padding: 20px;
-  width: 70%;
+  width: 100%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: auto; /* only for demonstration, should be removed */
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -54,49 +49,35 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color:#0d0d0d;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
+
+
 </style>
 </head>
 <body>
 
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
 
 <header>
-  <h2>Cities</h2>
+  <h2>Assignment 1</h2>
 </header>
 
 <section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
+  
   
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <h1>My first website!</h1>
+    <p>For the first assignment we were supposed to build a website using with html. This was very challenging for me because I have never built a website and I’m not familiar with html. I started my work be googling how to make a website and upload it to GitHub. I found this <a href="https://www.youtube.com/watch?v=FiOgz3nKpgk">video</a> on YouTube. After following instruction from it, I had learned how to make an easy design website with only one html file. Then I saw that someone had already uploaded a website in the <a href="https://docs.google.com/document/d/16Oz29xsAExFaEU4SFbLRvdc_GAZyFDIvDtmzpYlyx6M/edit?usp=sharing">google doc sheet</a>. I saw a site that was clearly made by a free template, so I looked for a video that showed me how to get a template and upload it to my website. I watched this <a href="https://www.youtube.com/watch?v=S6VQcqUsxhU">video</a> on YouTube and uploaded a new design I got from <a href="https://startbootstrap.com/themes/">Bootstrap</a>. Following I thougt this design wasn’t really well built for this course so I downloaded a new template from <a href="https://html5up.net/">HTML5up</a>. </p>
+    <p>Now I had to change it to the way I wanted to have it. I changed the buttons, pictures and the front page. I introduced myself, made a short resume and introduced my group.</p>
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>Ottó Ingi Ingimarsson</p>
 </footer>
 
 </body>
