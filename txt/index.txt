@@ -20,7 +20,7 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Ottó Ingi Ingimarsson1</h1>
+								<h1>Ottó Ingi Ingimarsson</h1>
 								<p>On this website you can find documentantation on my progress in the course VÉL 403G taught in the Universtity of Iceland</p>
 							</div>
 						</div>
@@ -30,7 +30,7 @@
 								<li><a href="#work">Work</a></li>
 								<li><a href="#group">Group work</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<li><a href="#elements">Website Code</a></li>
+								<li><a href="#elements">Elements</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -172,15 +172,12 @@
 
 						<!-- Elements -->
 							<article id="elements">
-								<h2 class="major">Website Code</h2>
+								<h2 class="major">Elements</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 								<section>
-									<p>
-									Here you can see the website code and download it in text format.
 									<nav>
 										<ul>
-											<li><a href="Assaignment1.txt" class="button" download>Assignment 1</a></li>
-											<li><a href="index.txt" class="button" download>Assignment 1</a></li>
+											<li><a href="Assaignment1.html" class="button" download>Assignment 1</a></li>
 										</ul>
 									</nav>
 									<h3 class="major">Text</h3>
